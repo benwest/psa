@@ -1,0 +1,29 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10; }
+
+.dg {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
+  .dg .main {
+    height: 100vh; }
+  .dg .selector {
+    z-index: 100; }
+
+#progress {
+  color: white;
+  position: fixed;
+  top: 1em;
+  left: 1em; }
+
+#form {
+  display: none; }
+
+.recorder {
+  background: white;
+  width: 200px;
+  font-family: sans-serif; }
